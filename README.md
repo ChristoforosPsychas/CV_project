@@ -2,3 +2,5 @@
 A CV project made by me with HMTL &amp; CSS
 
 I wanted to try a different way of building a CV, without the usual methods such as Word, LaTeX, etc.
+
+You can see the live page [here](https://christoforospsychas.github.io/CV_project/)!
