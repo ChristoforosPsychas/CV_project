@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .max-w-4xl {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  /* Prevent awkward page breaks */
+  section {
+    break-inside: avoid;
+  }
+
+  /* Fix inconsistent border thickness when printing */
+  h2 {
+    border-bottom-width: 2px !important;
+  }
+}
