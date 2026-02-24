@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header className="flex flex-col items-center">
       <h1 className="text-3xl font-bold">Christoforos Psychas</h1>
-      <div className="mt-2">
+      <div className="mt-2 text-center">
         <p>
           <a
             href="mailto:christoforospsychas@gmail.com"
@@ -10,19 +10,21 @@ const Header = () => {
           >
             christoforospsychas@gmail.com
           </a>{" "}
-          | Thessaloniki, Greece | +30 6976384844 |{" "}
+          | Thessaloniki, Greece | +30 697 638 4844
+        </p>
+        <p>
           <a
             href="https://github.com/ChristoforosPsychas"
             className="hover:underline"
           >
-            GitHub
+            github.com/ChristoforosPsychas
           </a>{" "}
           |{" "}
           <a
             href="https://www.linkedin.com/in/christoforos-psychas/"
             className="hover:underline"
           >
-            LinkedIn
+            linkedin.com/in/christoforos-psychas
           </a>
         </p>
       </div>
