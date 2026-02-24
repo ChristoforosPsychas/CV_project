@@ -12,17 +12,23 @@ const WorkExperience = () => {
       <p className="italic text-sm mb-1">Certh, Thessaloniki</p>
       <ul className="list-disc pl-5 mb-4 text-sm">
         <li>
-          Develop responsive, user-friendly interfaces for security and
-          cybersecurity research projects using React, JavaScript, and Tailwind
-          CSS.
+          Built responsive React and TypeScript interfaces for 5+ cybersecurity
+          research projects, using Tailwind CSS for styling and reducing UI
+          inconsistencies by resolving bugs and standardizing Ant Design
+          component usage across modules.
         </li>
         <li>
-          Build front-end components for the TESSERA project, focusing on user
-          management and data access features for the EU Security Data Space.
+          Integrated REST APIs to connect frontend with backend services,
+          enabling dynamic dashboards for security data visualization.
         </li>
         <li>
-          Write clean, readable, and well-structured code following modern
-          front-end best practices.
+          Managed version control with Git/GitLab and deployed full-stack
+          applications using Docker containers.
+        </li>
+        <li>
+          Collaborated with backend developers to understand API specifications
+          and integrate services, participating in requirements meetings to
+          align frontend development with project goals.
         </li>
       </ul>
 
@@ -33,13 +39,9 @@ const WorkExperience = () => {
       <p className="italic text-sm mb-1">PCsteps, Remote</p>
       <ul className="list-disc pl-5 mb-4 text-sm">
         <li>
-          Customer Support, answering questions about YouTube videos, articles,
-          and tech in general.
+          Provide customer support, write scripts for YouTube videos, and author
+          monthly PC build guides.
         </li>
-        <li>
-          Script Writing for PCsteps YouTube videos, explaining tech topics.
-        </li>
-        <li>Writing monthly PC guides and presenting custom PCsteps builds.</li>
       </ul>
 
       <div className="flex justify-between items-center">
@@ -49,16 +51,8 @@ const WorkExperience = () => {
       <p className="italic text-sm mb-1">PCsteps, Remote</p>
       <ul className="list-disc pl-5 mb-4 text-sm">
         <li>
-          Reviewed articles for grammar, spelling, punctuation, syntax, accuracy
-          and compliance with quality standards.
-        </li>
-        <li>
-          Determined readiness of written pieces, made changes and approved
-          final versions for publication.
-        </li>
-        <li>
-          Verified facts, dates, and statistics, using standard reference
-          sources and links.
+          Review and edit tech articles for grammar, accuracy, and publication
+          readiness.
         </li>
       </ul>
 
@@ -68,15 +62,10 @@ const WorkExperience = () => {
       </div>
       <p className="italic text-sm mb-1">PCsteps, Remote</p>
       <ul className="list-disc pl-5 text-sm">
-        <li>Evaluated website design and discussed plans for improvements.</li>
         <li>
-          Inserted new products on a daily basis or renewed existing ones.
+          Managed product listings, inventory, website improvements, and
+          customer support.
         </li>
-        <li>
-          Presented all products properly with working links and updated images.
-        </li>
-        <li>Reviewed stock levels and prices.</li>
-        <li>Provided customer and tech support via phone calls & emails.</li>
       </ul>
     </section>
   );
