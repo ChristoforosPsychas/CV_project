@@ -5,9 +5,18 @@ const Skills = () => {
         Skills
       </h2>
       <ul className="list-disc pl-5 text-sm">
-        <li>HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, jQuery</li>
-        <li>Git, GitHub</li>
-        <li>Docker</li>
+        <li>
+          <span className="font-bold">Languages:</span> HTML, CSS, JavaScript,
+          TypeScript
+        </li>
+        <li>
+          <span className="font-bold">Frameworks & Libraries:</span> React,
+          Redux, Redux Toolkit, Context API, Tailwind CSS, Axios, jQuery
+        </li>
+        <li>
+          <span className="font-bold">Tools & Platforms:</span> Git, GitHub,
+          Docker, REST APIs
+        </li>
       </ul>
     </section>
   );
