@@ -1,7 +1,7 @@
 const Summary = () => {
   return (
     <section className="p-2">
-      <h2 className="text-xl font-bold border-b-2 border-blue-700 mb-2">
+      <h2 className="text-xl font-bold border-b-2 border-blue-800 mb-2">
         Summary
       </h2>
       <p className="text-sm">
