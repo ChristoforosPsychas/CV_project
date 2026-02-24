@@ -3,9 +3,6 @@ import Header from "./components/Header";
 import WorkExperience from "./components/WorkExperience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
-import Languages from "./components/Languages";
-import Awards from "./components/Awards";
-import Interests from "./components/Interests";
 
 const App = () => {
   return (
@@ -15,17 +12,6 @@ const App = () => {
         <Skills />
         <WorkExperience />
         <Education />
-        <div className="flex gap-4">
-          <div className="flex-1">
-            <Languages />
-          </div>
-          <div className="flex-1">
-            <Awards />
-          </div>
-          <div className="flex-1">
-            <Interests />
-          </div>
-        </div>
       </main>
     </div>
   );
